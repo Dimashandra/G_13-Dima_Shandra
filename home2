@@ -1,0 +1,9 @@
+import random                                          
+x=list                                                 
+z = [random.randint(1, 9) for _ in range(5)]           
+c = [random.randint(1, 9) for _ in range(5)]           
+print('list 1',z)                                      
+print('list 2',c)                                      
+x= z + c                                               
+random.shuffle(x)                                      
+print('end list',x)                                    
