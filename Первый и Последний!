@@ -1,0 +1,4 @@
+import random                                            
+z = [random.randint(1, 9) for _ in range(10)]            
+print(z)                                                 
+print([z[0]], [z[-1]])                                   
