@@ -1,0 +1,4 @@
+z=list(str(123))                             
+summ = int(z[0]) + int(z[1]) + int(z[2])     
+print(z[0],"+",z[1],'+',z[2])                
+print(summ)                                  
