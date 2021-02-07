@@ -1,0 +1,20 @@
+import test_module, kontakt, kontakt2
+def Menu():
+    print("1. Создать")
+    print("2. Найти")
+    print("3. Выйти")
+
+    test1=int(input("Выбери действие: "))
+
+    if test1 == 1:
+        kontakt.create()
+    elif test1 == 2:
+        kontakt2.search()
+    elif test1 == 3:
+        test_module.exit()
+    else:
+        print("Ошибка. Выбери из списка.")
+
+    Menu()
+    test1 = int(input("Выбери действие: "))
+Menu()
